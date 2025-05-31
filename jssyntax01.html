@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The <b>let</b> Keyword Creates Variables</h2>
+
+<p id="demo"></p>
+
+<script>
+let x, y;
+x = 5 + 6;
+y = x * 10;
+document.getElementById("demo").innerHTML = y;
+</script>
+
+<h2>The var Keyword Creates Variables</h2>
+
+<p id="demo1"></p>
+
+<script>
+var a, b;
+a = 5 + 6;
+b = a * 10;
+document.getElementById("demo1").innerHTML = b;
+</script>
+
+<h2>JavaScript Comments are NOT Executed</h2>
+
+<p id="demo2"></p>
+
+<script>
+let xa;
+xa = 5;
+// xa = 6; I will not be executed
+document.getElementById("demo2").innerHTML = xa;
+</script>
+
+<h2>JavaScript is Case Sensitive</h2>
+
+<p>Try to change lastName to lastname.</p>
+
+<p id="demo3"></p>
+
+<script>
+let lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+document.getElementById("demo3").innerHTML = lastName;
+</script>
+<br><br>
+
+Hyphens:not allowed <br>
+
+first-name, last-name, master-card, inter-city.<br>
+
+Hyphens are not allowed in JavaScript. They are reserved for subtractions.<br>
+
+Underscore:<br><br>
+
+first_name, last_name, master_card, inter_city.<br>
+
+Upper Camel Case (Pascal Case):<br><br>
+
+FirstName, LastName, MasterCard, InterCity.<br>
+
+
+Lower Camel Case:<br><br>
+
+JavaScript programmers tend to use camel case that starts with a lowercase letter:<br>
+
+firstName, lastName, masterCard, interCity.<br><br>
+JavaScript uses the Unicode character set.<br>
+
+Unicode covers (almost) all the characters, punctuations, and symbols in the world.<br>
+</body>
+</html>
